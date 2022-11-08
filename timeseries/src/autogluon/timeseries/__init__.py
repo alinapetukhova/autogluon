@@ -44,8 +44,9 @@ except ImportError:
 from .dataset import TimeSeriesDataFrame
 from .evaluator import TimeSeriesEvaluator
 from .predictor import TimeSeriesPredictor
+from .splitter import MultiWindowSplitter
 
 _add_stream_handler()
 
 
-__all__ = ["TimeSeriesDataFrame", "TimeSeriesEvaluator", "TimeSeriesPredictor"]
+__all__ = ["TimeSeriesDataFrame", "TimeSeriesEvaluator", "TimeSeriesPredictor", "MultiWindowSplitter"]
